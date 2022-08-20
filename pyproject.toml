@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataq"
+version = "0.1.0"
+description = "A toolset for data quality computation."
+readme = "README.md"
+authors = [{ name = "NiL", email = "csningli@qq.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ['dataq', ]
+dependencies = [
+    'pandas >= 1.4.3', 
+]
+
+requires-python = ">=3.9.12"
+
+[project.urls]
+Homepage = "https://github.com/csningli/data-quality-tools"
+
